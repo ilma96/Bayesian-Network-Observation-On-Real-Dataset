@@ -100,11 +100,11 @@ evidence('ev1', 'Gender', 'female', 1.0)
 print('Probability recalculated given evidence: ')
 print_probs() #to calculate the probabilities given an evidence set.
 
-# Drawing the tree graph. I did not write this code.
+# Drawing the tree graph. 
 # Set node positions
 pos = {0: (1, 2.5), 1: (-1, 0.5), 2: (1, 0.5), 3: (0, -1)}
 
-# To set options for the outlook of the graph. I did not write this portion.
+# To set options for the outlook of the graph. 
 options = {
     "font_size": 12,
     "node_size": 8000,
